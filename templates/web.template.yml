@@ -91,7 +91,6 @@ run:
         - git remote set-branches --add origin master
         - git pull
         - git fetch origin $version
-        - git checkout $version
         - mkdir -p tmp
         - chown discourse:www-data tmp
         - mkdir -p tmp/pids
